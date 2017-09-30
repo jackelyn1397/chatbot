@@ -3,8 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Hilton Chatbot</title>
+  <script src="assets/js/jquery-1.11.1.min.js"></script>
+  <script src="assets/js/chatbot.js"></script>
 </head>
 <body>
-  <h1>Welcome to Hilton's Chatbot!</h1>
+  <h1>Welcome to Butler!</h1>
+  <form>
+  Enter your request here:<br>
+  <input id="text"><br>
+</form>
+  <button class="send" OnClick="sendMessage()">Send</button>
+  <p id="keywords"></p>
+  <p class="output"></p>
  </body>
 </html>
